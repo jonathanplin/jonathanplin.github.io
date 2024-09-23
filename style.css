@@ -9,22 +9,38 @@ body {
   h1 {
     font-size: 20pt;
     color: #120076;
-    text-align: center;
   }
 
   h2 {
     font-size: 18pt;
     color: rgb(0, 0, 158);
-    text-align: center;
   }
 
   h3 {
     font-size: 16pt;
     color: #1800cd;
-    text-align: center;
   }
   
   p {
     font-size: 12px;
     color: #414141;
+
+  }
+
+  a:link {
+    color: #9b9b00;
+    text-decoration: none;
+  }
+  a:visited {
+    color:#666600;
+    text-decoration: none;
+  }
+  a:active {
+    color: #3d3d00;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
   }
