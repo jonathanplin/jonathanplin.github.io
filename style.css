@@ -74,7 +74,7 @@ body {
   }
 
   .UniLeeds {
-    display: table;
     padding: 1%;
     border: 1px solid #000000;
+    background-color: rgb(110, 194, 222);
   }
