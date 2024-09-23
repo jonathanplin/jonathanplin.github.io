@@ -50,7 +50,7 @@ body {
   .course-highlights {
     display: table;
     width: 100%;
-    margin-top: 10pt;
+    margin-top: 5pt;
     border-collapse: collapse;
   }
 
