@@ -2,16 +2,29 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
     background-color: lightblue;
-    color: darkblue;
+    color: rgb(10, 1, 80);
     margin: 15pt;
   }
   
   h1 {
-    color: white;
+    font-size: 20pt;
+    color: #120076;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 18pt;
+    color: rgb(0, 0, 158);
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 16pt;
+    color: #1800cd;
     text-align: center;
   }
   
   p {
-    font-family: verdana;
-    font-size: 20px;
+    font-color: #414141;
+    font-size: 12px;
   }
