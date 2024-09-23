@@ -20,27 +20,45 @@ body {
     font-size: 16pt;
     color: #1800cd;
   }
-  
-  p {
-    font-size: 12px;
-    color: #414141;
-
-  }
 
   a:link {
     color: #9b9b00;
     text-decoration: none;
   }
+
   a:visited {
     color:#666600;
     text-decoration: none;
   }
+
   a:active {
     color: #3d3d00;
     text-decoration: none;
   }
+  
   a:hover {
     color: red;
     font-weight: bold;
     text-decoration: underline;
+  }
+
+  p {
+    font-size: 12px;
+    color: #414141;
+  }
+
+  .course-highlights {
+    display: table;
+    width: 100%;
+    margin-top: 20pt;
+  }
+
+  .description {
+    display: table;
+    width: 100%;
+    margin-top: 20pt;
+  }
+
+  .description p {
+    margin: 0;
   }
