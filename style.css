@@ -57,8 +57,7 @@ body {
     display: table-cell;
     padding: 3%;
     border: 2px solid #000000;
-    width: 100%;
-    vertical-align: 20pt;
+    vertical-align: top;
   }
 
   .description p {
