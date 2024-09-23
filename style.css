@@ -50,11 +50,13 @@ body {
   .course-highlights {
     display: table;
     width: 100%;
-    margin-top: 20pt;
+    margin-top: 15pt;
   }
 
   .description {
     display: table-cell;
+    padding: 3%;
+    border: 1px;
     width: 100%;
     margin-top: 20pt;
   }
