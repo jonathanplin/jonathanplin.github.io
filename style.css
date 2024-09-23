@@ -55,8 +55,8 @@ body {
 
   .description {
     display: table-cell;
-    padding: 3%;
-    border: 1px;
+    padding: 5%;
+    border: 2px solid #000000;
     width: 100%;
     vertical-align: 20pt;
   }
