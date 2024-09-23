@@ -48,18 +48,17 @@ body {
   }
 
   .course-highlights {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: table;
     width: 100%;
     margin-top: 15pt;
   }
 
   .description {
     display: table-cell;
-    padding: 5%;
-    border: 20px solid #000000;
+    padding: 3%;
+    border: 2px solid #000000;
     width: 100%;
-    vertical-align: top;
+    vertical-align: 20pt;
   }
 
   .description p {
