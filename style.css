@@ -61,14 +61,14 @@ body {
   .course-code {
     display: table-cell;
     font-weight: bold;
-    padding: 3%;
+    padding: 3pt;
     border: 2px solid #000000;
     vertical-align: top;
   }
 
   .course-desc {
     display: table-cell;
-    padding: 3%;
+    padding: 3pt;
     border: 2px solid #000000;
     vertical-align: top;
   }
