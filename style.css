@@ -53,13 +53,14 @@ body {
     margin-top: 15pt;
   }
 
-  .description {
-    display: table-cell;
+  .course-code {
+    display: table-column;
     padding: 3%;
     border: 2px solid #000000;
     vertical-align: top;
   }
 
-  .description p {
-    margin: 0;
+  .course-desc {
+    display: table-row;
+    vertical-align: top;
   }
