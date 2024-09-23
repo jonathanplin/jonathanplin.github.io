@@ -50,7 +50,7 @@ body {
   .course-highlights {
     display: table;
     width: 100%;
-    margin-top: 5pt;
+    margin-top: 3pt;
     border-collapse: collapse;
   }
 
@@ -71,4 +71,10 @@ body {
     padding: 3pt;
     border: 2px solid #000000;
     vertical-align: top;
+  }
+
+  .UniLeeds {
+    display: table;
+    padding: 1%;
+    border: 1px solid #000000;
   }
