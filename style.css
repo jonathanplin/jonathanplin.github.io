@@ -54,7 +54,7 @@ body {
   }
 
   .description {
-    display: table;
+    display: table-cell;
     width: 100%;
     margin-top: 20pt;
   }
