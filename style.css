@@ -51,6 +51,7 @@ body {
     padding: 1%;
     border: 2pt solid #000000;
     box-sizing: border-box;
+    margin-left: -10;
   }
 
   .course-highlights {
