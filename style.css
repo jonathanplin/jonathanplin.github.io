@@ -49,7 +49,7 @@ body {
 
   div.UniLeeds {
     padding: 3%;
-    border: 3px solid #000000;
+    border: 3px solid #000000 !important;
     background-color: rgb(110, 194, 222);
     box-sizing: border-box;
   }
