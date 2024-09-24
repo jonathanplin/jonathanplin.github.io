@@ -47,6 +47,13 @@ body {
     color: #414141;
   }
 
+  .UniLeeds {
+    padding: 3%;
+    border: 2px solid #000000;
+    background-color: rgb(110, 194, 222);
+    box-sizing: border-box;
+  }
+
   .course-highlights {
     display: table;
     width: 100%;
@@ -71,11 +78,4 @@ body {
     padding: 3pt;
     border: 2px solid #000000;
     vertical-align: top;
-  }
-
-  .UniLeeds {
-    padding: 3%;
-    border: 2px solid #000000;
-    background-color: rgb(110, 194, 222);
-    box-sizing: border-box;
   }
