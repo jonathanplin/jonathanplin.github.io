@@ -18,3 +18,53 @@ function enlargeImage() {
         img.style.width = "200px";
     }
 }
+
+var navItems = [
+    { name: 'Home', link: 'index.html' },
+    { name: 'Portfolio', link: '#', subItems: [
+        { name: 'Work Experience', link: 'work-experience.html' },
+        { name: 'Certifications & Awards', link: 'certifications.html' }
+    ]},
+    { name: 'About Us', link: 'about.html' },
+    { name: 'Contact', link: 'contact.html' }
+];
+
+// Create the unordered list for the navigation menu
+var ul = document.createElement('ul');
+
+// Create each navigation item
+navItems.forEach(function(item) {
+    var li = document.createElement('li');
+
+    // Create anchor element
+    var a = document.createElement('a');
+    a.href = item.link; // Set the link
+    a.textContent = item.name; // Set the text
+
+    // Append the anchor to the list item
+    li.appendChild(a);
+
+    // Handle dropdown menu for "Portfolio"
+    if (item.subItems) {
+        var submenu = document.createElement('ul'); // Create a new UL for the submenu
+
+        // Submenu items
+        item.subItems.forEach(function(subItem) {
+            var subLi = document.createElement('li');
+            var subA = document.createElement('a');
+            subA.href = subItem.link;
+            subA.textContent = subItem.name;
+            subLi.appendChild(subA);
+            submenu.appendChild(subLi);
+        });
+
+        // Append the submenu to the "Portfolio" list item
+        li.appendChild(submenu);
+    }
+
+    // Append the list item to the unordered list
+    ul.appendChild(li);
+});
+
+// Append the unordered list to the navigation bar
+document.getElementById('navBar').appendChild(ul);
