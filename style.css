@@ -88,9 +88,12 @@ body {
 }
 
   nav {
-  display: flex;
-  justify-content: space-around;
-  background-color: #333;
+    background-color: #333;
+}
+
+  nav ul {
+    justify-content: space-around;
+    display: flex;
 }
 
   nav li {
