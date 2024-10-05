@@ -35,6 +35,7 @@ var ul = document.createElement('ul');
 // Create each navigation item
 navItems.forEach(function(item) {
     var li = document.createElement('li');
+    li.style.display = 'inline'; // Make list items display inline
 
     // Create anchor element
     var a = document.createElement('a');
@@ -47,6 +48,8 @@ navItems.forEach(function(item) {
     // Handle dropdown menu for "Portfolio"
     if (item.subItems) {
         var submenu = document.createElement('ul'); // Create a new UL for the submenu
+        submenu.style.display = 'none'; // Hide submenu by default
+        submenu.style.position = 'absolute'; // Optional: position submenu
 
         // Submenu items
         item.subItems.forEach(function(subItem) {
@@ -60,6 +63,16 @@ navItems.forEach(function(item) {
 
         // Append the submenu to the "Portfolio" list item
         li.appendChild(submenu);
+
+        // Show submenu on mouse over
+        li.onmouseover = function() {
+            submenu.style.display = 'block';
+        };
+
+        // Hide submenu on mouse out
+        li.onmouseout = function() {
+            submenu.style.display = 'none';
+        };
     }
 
     // Append the list item to the unordered list
