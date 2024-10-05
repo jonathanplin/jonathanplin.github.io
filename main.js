@@ -6,3 +6,14 @@ var displayName = document.getElementById("displayName");
         displayName.innerText = "Hello, " + userName + "!";
     }
 };
+
+function enlargeImage() {
+    var img = document.getElementById("image");
+    if (img.classList.contains("enlarged")) {
+        img.classList.remove("enlarged");
+        img.style.width = "100px";
+    } else {
+        img.classList.add("enlarged");
+        img.style.width = "300px"; //
+    }
+}
