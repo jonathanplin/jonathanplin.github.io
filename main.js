@@ -11,10 +11,10 @@ function enlargeImage() {
     var img = document.getElementById("image");
     if (img.classList.contains("enlarged")) {
         img.classList.remove("enlarged");
-        img.style.width = "20px";
+        img.style.width = "100";
     } 
     else {
         img.classList.add("enlarged");
-        img.style.width = "60px"; //
+        img.style.width = "200";
     }
 }
