@@ -27,12 +27,12 @@ body {
   }
 
   a:visited {
-    color:#666600;
+    color:#e2e2e2;
     text-decoration: none;
   }
 
   a:active {
-    color: #3d3d00;
+    color: #ffffff;
     text-decoration: none;
   }
   
@@ -88,7 +88,7 @@ body {
 }
 
   nav {
-    background-color: #333;
+    background-color: #000000;
 }
 
   nav ul {
@@ -114,7 +114,7 @@ body {
   nav ul ul {
   display: none;
   position: absolute;
-  background-color: #444;
+  background-color: #000000;
   left: 0;
 }
 
