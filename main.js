@@ -12,7 +12,8 @@ function enlargeImage() {
     if (img.classList.contains("enlarged")) {
         img.classList.remove("enlarged");
         img.style.width = "20px";
-    } else {
+    } 
+    else {
         img.classList.add("enlarged");
         img.style.width = "60px"; //
     }
