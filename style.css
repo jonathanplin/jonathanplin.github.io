@@ -81,10 +81,43 @@ body {
     vertical-align: top;
   }
 
-  li {
-    float: left; /* Align menu items horizontally */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-  li:hover .submenu {
-    display: block; /* Show submenu */
+  nav {
+    display: flex;
+    background-color: #333;
+}
+
+  nav li {
+    position: relative;
+    margin-right: 20px;
+}
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+  nav a:hover {
+    background-color: #555;
+}
+
+  nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #444;
+}
+
+  nav li:hover > ul {
+    display: block;
+}
+
+  nav ul ul li {
+    margin: 0;
 }
