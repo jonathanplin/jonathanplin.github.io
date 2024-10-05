@@ -80,3 +80,11 @@ body {
     border: 2px solid #000000;
     vertical-align: top;
   }
+
+  li {
+    float: left; /* Align menu items horizontally */
+}
+
+  li:hover .submenu {
+    display: block; /* Show submenu */
+}
