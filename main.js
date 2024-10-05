@@ -11,9 +11,9 @@ function enlargeImage() {
     var img = document.getElementById("image");
     if (img.classList.contains("enlarged")) {
         img.classList.remove("enlarged");
-        img.style.width = "100px";
+        img.style.width = "20px";
     } else {
         img.classList.add("enlarged");
-        img.style.width = "300px"; //
+        img.style.width = "60px"; //
     }
 }
