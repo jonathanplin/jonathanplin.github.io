@@ -35,6 +35,11 @@ body {
     color: #ffffff;
     text-decoration: none;
   }
+
+  a.courselink:active {
+    color: #474747;
+    text-decoration: none;
+  }
   
   a:hover {
     color: red;
