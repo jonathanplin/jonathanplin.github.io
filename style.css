@@ -135,3 +135,12 @@ body {
   nav ul ul li {
   margin: 0;
 }
+
+  ul li a {
+  color: black;
+  padding: 10px;
+}
+
+  ul li a.hovered {
+  color: darkslategrey;
+}
