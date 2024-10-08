@@ -21,7 +21,7 @@ function enlargeImage() {
 
 var navItems = [
     { name: 'Home', link: 'index.html' },
-    { name: 'Portfolio', link: '#', subItems: [
+    { name: 'Portfolio', link: 'portfolio.html', subItems: [
         { name: 'Work Experience', link: 'work-experience.html' },
         { name: 'Certifications & Awards', link: 'certifications.html' }
     ]},
