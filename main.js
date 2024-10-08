@@ -36,6 +36,15 @@ navItems.forEach(function(item) {
     var a = document.createElement('a');
     a.href = item.link;
     a.textContent = item.name;
+
+    li.addEventListener('mouseover', function() {
+        a.classList.add('hovered');
+    });
+
+    li.addEventListener('mouseout', function() {
+        a.classList.remove('hovered');
+    });
+
     li.appendChild(a);
     
     if (item.subItems) {
