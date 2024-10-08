@@ -41,6 +41,11 @@ body {
     text-decoration: none;
   }
   
+  a.courselinks:visited {
+    color: #424242;
+    text-decoration: none;
+  }
+
   a:hover {
     color: rgb(5, 0, 61);
     font-weight: bold;
