@@ -42,7 +42,7 @@ body {
   }
   
   a:hover {
-    color: red;
+    color: rgb(5, 0, 61);
     font-weight: bold;
     text-decoration: underline;
   }
