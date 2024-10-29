@@ -145,6 +145,28 @@ body {
   color: rgb(255, 255, 255);
 }
 
+form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input[type="text"], form input[type="email"], form textarea, form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
 footer {
   text-align: center;
   padding: 10px;
