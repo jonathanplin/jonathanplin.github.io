@@ -4,6 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<!-- The "Submit" button triggers a JavaScript function which gathers the form data,
+    turns it into a JSON string, and saves it to the local storage
+    The "Clear" button resets all input fields using the HTML reset method -->
 <body>
     <h1>Contact Me</h1>
 <form id="contactForm">
@@ -18,7 +21,7 @@
 
     <!-- 2. Password Field (phone number)-->
     <label for="phone number">Phone Number:</label>
-    <input id="phoneNumber" type="phoneNumber" name="phoneNumber" required>
+    <input id="phoneNumber" type="password" name="phoneNumber" required>
 
     <!-- 3. Radio Buttons (position) -->
     <fieldset>
@@ -78,3 +81,5 @@
     <button type="submit" id="submitButton">Submit</button>
     <button type="reset" id="clearButton">Clear</button>
 </form>
+
+<script src="data.jss"></script>
