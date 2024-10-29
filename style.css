@@ -156,14 +156,19 @@ form {
 
 form label {
   display: block;
-  margin-top: 10px;
+  margin-bottom: 8px;
+  font-weight: bold;
 }
 
-form input[type="text"], form input[type="email"], form textarea, form select {
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
   width: 100%;
   padding: 8px;
-  margin-top: 5px;
-  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
   border-radius: 4px;
 }
 
