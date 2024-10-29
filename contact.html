@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <meta charset=""utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Contact Me</h1>
+<form id="contactForm">
+    
+    <!-- 1. Text Field (name)-->
+    <label for="name">Full Name:</label>
+    <input id="name" type="text" name="name" required>
+
+     <!-- Text Field (email)-->
+    <label for="email">Email Address:</label>
+    <input id="email" type="email" name="email" required>
+
+    <!-- 2. Password Field (phone number)-->
+    <label for="phone number">Phone Number:</label>
+    <input id="phoneNumber" type="phoneNumber" name="phoneNumber" required>
+
+    <!-- 3. Radio Buttons (position) -->
+    <fieldset>
+        <legend>What industry is your company?</legend>
+            <label>Industry:</label>
+    <fieldset id="industry">
+        <input id="technology" type="radio" name="industry" value="Technology">
+        <label for="technology">Technology</label><br>
+        <input id="finance" type="radio" name="industry" value="Finance">
+        <label for="finance">Finance</label><br>
+        <input id="healthcare" type="radio" name="industry" value="Healthcare">
+        <label for="healthcare">Healthcare</label><br>
+        <input id="retail" type="radio" name="industry" value="Retail">
+        <label for="retail">Retail</label><br>
+        <input id="engineering" type="radio" name="industry" value="Engineering">
+        <label for="engineering">Engineering</label><br>
+    </fieldset>
+
+    <!-- 4. Data List (job title)-->
+    <label for="jobTitle">Your Job Title:</label>
+    <input type="text" id="jobTitle" name="jobTitle" list="jobTitles">
+    <datalist id="jobTitles">
+        <option value="Hiring Manager">
+        <option value="Recruiter">
+        <option value="CEO">
+        <option value="HR Manager">
+        <option value="Team Lead"></option>
+        <option value="Project Manager">
+    </datalist>
+
+    <!-- 5. Checkboxes (contact method) -->
+    <fieldset>
+        <legend>Contact Method (Select all that apply):</legend>
+        <input id="email" type="checkbox" name="contactMethod" value="email">
+        <label for="email">Email</label>
+        <input id="phoneNumber" type="checkbox" name="contactMethod" value="phoneNumber">
+        <label for="phoneNumber">Phone Number</label>
+        <input id="textMessage" type="checkbox" name="contactMethod" value="textMessage">
+        <label for="textMessage">Text Message</label>
+    </fieldset>
+
+    <!-- 6. Dropdown menu (department) -->
+    <label for="department">Department:</label>
+    <select id="department" name="department">
+        <option value="MKT">Marketing</option>
+        <option value="AF">Accounting/Finance</option>
+        <option value="IT">Information Technology</option>
+        <option value="HR">Human Resources</option>
+        <option value="Other">Other</option>
+    </select>
+
+    <!-- 7. Text Area (comments) -->
+    <label for="comments">Additional Comments:</label>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+    <!-- 8. Buttons (Submit and Clear) -->
+    <button type="submit" id="submitButton">Submit</button>
+    <button type="reset" id="clearButton">Clear</button>
+</form>
