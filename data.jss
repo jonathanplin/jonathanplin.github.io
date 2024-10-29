@@ -1,34 +1,27 @@
-function loadUserData() {
-    var user = document.getElementById("username");
-    var savedUsername = localStorage.getItem("username");
-    if (savedUsername) {
-        user.value = savedUsername; // Set input value to the saved username
-    }
-}
-
-// Update paragraph with real-time user input
-function inputHandler() {
-    var myvalue = document.getElementById("username").value;
-    document.getElementById("emptyParagraph").innerHTML = "Your Input: " + myvalue;
-}
-
-// Handle form submission
-document.getElementById('userForm').onsubmit = function(event) {
+// Function to handle form submission
+document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent default form submission
 
-    // Get user input values
-    var username = document.getElementById("username").value;
-    var email = document.getElementById("email").value;
+    // Gather form data
+    const formData = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        phoneNumber: document.getElementById('phoneNumber').value,
+        industry: document.querySelector('input[name="industry"]:checked')?.value,
+        jobTitle: document.getElementById('jobTitle').value,
+        contactMethod: Array.from(document.querySelectorAll('input[name="contactMethod"]:checked')).map(el => el.value),
+        department: document.getElementById('department').value,
+        comments: document.getElementById('comments').value
+    };
 
-    // Store input values in local storage
-    localStorage.setItem("username", username);
-    localStorage.setItem("email", email);
-    alert("Your data has been saved to local storage.");
-};
+    // Convert to JSON string + save to local storage
+    localStorage.setItem('contactFormData', JSON.stringify(formData));
+    alert('Your data has been saved!'); // Confirmation message
+});
 
-// Handle clear button functionality
-document.getElementById('clearBtn').onclick = function() {
-    document.getElementById('userForm').reset(); // Clear all form fields
-    document.getElementById("emptyParagraph").innerHTML = "Dynamically change on webpage input without prompt"; // Reset the paragraph
-    alert("All fields have been cleared.");
-};
+// Function to handle form reset
+document.getElementById('clearButton').addEventListener('click', function() {
+    // Clear local storage
+    localStorage.removeItem('contactFormData');
+    alert('All fields have been cleared!'); // Confirmation message
+});
