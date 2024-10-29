@@ -25,7 +25,7 @@ var navItems = [
         { name: 'Work Experience', link: 'work-experience.html' },
         { name: 'Certifications & Awards', link: 'certifications.html' }
     ]},
-    { name: 'About Us', link: 'about.html' },
+    { name: 'About Me', link: 'about.html' },
     { name: 'Contact', link: 'contact.html' }
 ];
 
