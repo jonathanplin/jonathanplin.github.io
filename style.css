@@ -183,7 +183,7 @@ footer {
   font-size: 120%;
 }
 
-.accessible-color {
-  background-color: #003366; /* Dark blue background */
+.accessible-color, .accessible-color h1, .accessible-color h2, .accessible-color h3 {
+  background-color: #003366;
   color: #FFFF99;
 }
