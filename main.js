@@ -75,6 +75,7 @@ function AccessibleColor() {
 }
 
 function showAltText() {
+    document.body.classList.toggle("alt-text")
     var altTextElements = document.querySelectorAll(".alt-text");
     altTextElements.forEach(function(element) {
         element.style.display = "block";
