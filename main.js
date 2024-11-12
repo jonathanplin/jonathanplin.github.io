@@ -64,3 +64,8 @@ navItems.forEach(function(item) {
 });
 
 document.getElementById('navBar').appendChild(ul);
+
+function enlargeText() {
+    document.body.classList.toggle("large-text")
+
+}

@@ -178,3 +178,7 @@ footer {
   background-color: #333;
   color: #fff;
 }
+
+.large-text {
+  font-size: 20px;
+}
