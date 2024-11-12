@@ -179,6 +179,6 @@ footer {
   color: #fff;
 }
 
-.large-text, .large-text p {
+.large-text, .large-text p, .large-text h1, .large-text h2, .large-text h3 {
   font-size: 120%;
 }
