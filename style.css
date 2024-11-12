@@ -183,7 +183,7 @@ footer {
   font-size: 120%;
 }
 
-.accessible-color, .accessible-color p, .accessible-color h1, .accessible-color h2, .accessible-color h3, .accessible-color a:link {
+.accessible-color, .accessible-color p, .accessible-color h1, .accessible-color h2, .accessible-color h3, .accessible-color a.courselinks {
   background-color: #003366;
   color: #FFFF99;
 }
