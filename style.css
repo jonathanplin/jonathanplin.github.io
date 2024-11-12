@@ -179,6 +179,6 @@ footer {
   color: #fff;
 }
 
-.large-text {
+.large-text, .large-text p {
   font-size: 20px;
 }
