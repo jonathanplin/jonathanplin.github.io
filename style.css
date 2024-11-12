@@ -203,3 +203,9 @@ footer {
     border-radius: 8px;
 }
 
+.alt-text {
+  display: none;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+}
