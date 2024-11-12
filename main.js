@@ -73,3 +73,10 @@ function enlargeText() {
 function AccessibleColor() {
     document.body.classList.toggle("accessible-color");
 }
+
+function showAltText() {
+    var altTextElements = document.querySelectorAll(".alt-text");
+    altTextElements.forEach(function(element) {
+        element.style.display = "block";
+    });
+}
