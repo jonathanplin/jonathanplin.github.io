@@ -69,3 +69,7 @@ function enlargeText() {
     document.body.classList.toggle("large-text")
 
 }
+
+function AccessibleColor() {
+    document.body.classList.toggle("accessible-color");
+}

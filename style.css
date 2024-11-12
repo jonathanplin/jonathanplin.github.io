@@ -182,3 +182,8 @@ footer {
 .large-text, .large-text p, .large-text h1, .large-text h2, .large-text h3 {
   font-size: 120%;
 }
+
+.accessible-color {
+  background-color: #003366; /* Dark blue background */
+  color: #FFFF99;
+}
