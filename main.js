@@ -26,7 +26,8 @@ var navItems = [
         { name: 'Certifications & Awards', link: 'certifications.html' }
     ]},
     { name: 'About Me', link: 'about.html' },
-    { name: 'Contact', link: 'contact.html' }
+    { name: 'Contact', link: 'contact.html' },
+    { name: 'SEO', link: 'seo.html'}
 ];
 
 var ul = document.createElement('ul');
